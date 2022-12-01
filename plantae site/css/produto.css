@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #D5E1D6;
+}
+
+#menu-top{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    width: 100%;
+    min-height: 100px;
+    background-color: #D2FFD1;
+}
+
+#menu-top ul li{
+    padding-top: 35px;
+    display: inline-block;
+}
+
+#buttons-ini{
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+#buttons-ini ul li{
+    padding-left: 60px;
+}
+
+#icons-sec{
+    width: 10%;
+    position: relative;
+    float: right;
+}
+
+#icons-sec ul li{
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+#icons-sec span{
+    font-size: 40px;
+}
+
+#menu-top a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu-top a:hover{
+    text-decoration: underline;
+    color: rgb(190, 19, 19);
+}
+
+#icons-sec a:hover{
+    color: rgb(0, 140, 255);
+}
+
+.material-symbols-outlined{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+#txtimgbut{
+    width: 50%;
+    padding-left: 25%;
+    padding-top: 150px;
+    font-family: 'Cabin', sans-serif;
+}
+
+#txtp{
+    width: 45%;
+    float: left;
+}
+
+#txtp h3{
+    font-size: 40px;
+}
+
+#txtp p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#butp{
+    padding-top: 40px;
+}
+
+#price{
+    background-color: rgb(88, 165, 104);
+    width: 75px;
+    height: 25px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+}
+
+#price:hover{
+    background-color: black;
+    color: rgb(88, 165, 104);
+}
+
+#addcart{
+    background-color: rgb(129, 153, 134);
+    width: 75px;
+    height: 25px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+#addcart:hover{
+    background-color: black;
+    color: rgb(129, 153, 134);
+}
+
+#imgp{
+    background-color: #E4E4E4;
+    border-radius: 25px;
+    width: 400px;
+    height: 500px;
+    float: right;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#imgp img{
+    height: 300px;
+    padding-top: 75px;
+}
